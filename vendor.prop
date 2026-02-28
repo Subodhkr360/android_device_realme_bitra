@@ -7,3 +7,8 @@ ro.crypto.volume.metadata.method=dm-default-key
 
 # USB
 vendor.usb.product_string=realme GT Neo 2
+
+#
+ro.product.marketname=Realme GT Neo 2
+ro.infinity.soc=Snapdragon 870
+ro.infinity.camera=64MP + 8MP + 2MP
