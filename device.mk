@@ -58,7 +58,7 @@ $(call inherit-product, device/realme/sm8250-common/common.mk)
 
 #
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.lunaris.maintainer=Snake | 集める
+    ro.lunaris.maintainer=Snakeඞ | 集める
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
