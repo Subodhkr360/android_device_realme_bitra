@@ -402,11 +402,4 @@
         <item>94</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
-     <!-- Whether device has VOOC charging support -->
-     <bool name="config_hasVoocCharger">true</bool>
-
-     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/oplus_chg/battery/fast_charge</string>
-
-     <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
-
 </resources>
