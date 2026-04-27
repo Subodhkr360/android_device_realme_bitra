@@ -56,6 +56,10 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/realme/sm8250-common/common.mk)
 
+#
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lunaris.maintainer=Snake | 集める
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
