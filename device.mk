@@ -56,7 +56,7 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/
 #
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.product.marketname="Realme GT Neo 2" \
-    ro.infinity.soc="Snapdragon_870" \
+    ro.infinity.soc="Snapdragon-870" \
     ro.infinity.camera="64MP+8MP+2MP"
 
 # Inherit from the common OEM chipset makefile.
