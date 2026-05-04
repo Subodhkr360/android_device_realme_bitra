@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Define GitLab as a remote since it might not be in the default manifest -->
+    <remote name="gitlab" fetch="https://gitlab.com" />
+
+    <!-- Kernel -->
+    <!-- clone-depth="1" handles your depth=1 and no-tags flags -->
+    <project path="kernel/realme/sm8250" name="Subodhkr360/android_kernel_realme_sm8250" remote="github" clone-depth="1" />
+
+    <!-- Device Trees -->
+    <project path="device/realme/sm8250-common" name="Subodhkr360/android_device_realme_sm8250-common" remote="github" />
+    <project path="hardware/oplus" name="Subodhkr360/android_hardware_realme" remote="github" revision="lineage-23.2" />
+
+    <!-- Vendor Trees -->
+    <project path="vendor/realme/sm8250-common" name="bijoyv9/proprietary_vendor_realme_sm8250-common" remote="gitlab" revision="lineage-23.2" />
+    <project path="vendor/realme/bitra" name="bijoyv9/proprietary_vendor_realme_bitra" remote="gitlab" revision="lineage-23.2" />
+    <project path="vendor/oplus/camera" name="ryukftw/proprietary_vendor_oplus_camera" remote="gitlab" revision="lineage-23.1" />
+
+    <!-- Packages & Apps -->
+    <project path="packages/apps/RealmeAddons" name="Subodhkr360/android_packages_apps_RealmeAddons" remote="github" revision="lineage-23.2" />
+    <project path="packages/apps/ViPER4AndroidFX" name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" remote="github" revision="lineage-23.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/dolby" name="SM8250-Common/android_hardware_dolby" remote="github" revision="lineage-23.2" />
+</manifest>
