@@ -50,6 +50,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.sys.perf.scroll_opt=true \
+   persist.sys.perf.scroll_opt.heavy_app=1
+
 # Touch
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
 
