@@ -13,15 +13,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/bitra/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/matrixx/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_bitra
+PRODUCT_NAME := matrixx_bitra
 PRODUCT_DEVICE := bitra
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3370
 TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
+
+SURFACE_FLINGER_BOOST := true
+WITH_BCR := true
+WITH_GMS := true
+WITH_GMS_COMMS_SUITE := true
+MATRIXX_MAINTAINER := Snakeඞ
+TARGET_CUSTOM_UDFPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
