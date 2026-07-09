@@ -24,6 +24,9 @@ INFINITY_MAINTAINER := SAI
 TARGET_HAS_UDFPS := true
 WITH_BCR := true
 
+#(BCR)
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
