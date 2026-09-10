@@ -16,7 +16,7 @@ $(call inherit-product, device/realme/bitra/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 #BCR
-$(call inherit-product, vendor/bcr/bcr.mk)
+#$(call inherit-product, vendor/bcr/bcr.mk)
 
 PRODUCT_NAME := lineage_bitra
 PRODUCT_DEVICE := bitra
