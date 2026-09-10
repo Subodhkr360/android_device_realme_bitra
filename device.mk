@@ -64,4 +64,4 @@ PRODUCT_SYSTEM_PROPERTIES += \
 $(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+#$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
