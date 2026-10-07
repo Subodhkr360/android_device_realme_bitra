@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/bitra/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_bitra
+PRODUCT_NAME := Infinity_bitra
 PRODUCT_DEVICE := bitra
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -25,6 +25,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
+INFINITY_MAINTAINER := "Snake ඞ"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
