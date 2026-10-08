@@ -15,7 +15,7 @@ $(call inherit-product, device/realme/bitra/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := Infinity_bitra
+PRODUCT_NAME := infinity_bitra
 PRODUCT_DEVICE := bitra
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
