@@ -62,3 +62,4 @@ $(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 #Realme-addon
 $(call inherit-product-if-exists, packages/apps/RealmeAddons/realmeaddons.mk)
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
