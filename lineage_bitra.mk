@@ -26,6 +26,16 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
 
+# Set maintainer
+MISTOS_MAINTAINER := "Snakeඞ"
+# Enable GMS with mini package
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+# Enable UI enhancements
+TARGET_ENABLE_BLUR := true
+# Enable features
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
