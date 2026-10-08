@@ -25,6 +25,13 @@ TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 870" \
+    RisingMaintainer="Snakeඞ"
+
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+RISING_MAINTAINER="Snakeඞ"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
