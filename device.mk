@@ -63,3 +63,8 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 #Realme-addon
 $(call inherit-product-if-exists, packages/apps/RealmeAddons/realmeaddons.mk)
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.marketname="realme GT Neo 2" \
+    ro.infinity.soc="Snapdragon 870" \
+    ro.infinity.camera="64MP + 8MP + 2MP"
