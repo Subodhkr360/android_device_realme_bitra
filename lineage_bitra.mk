@@ -33,6 +33,9 @@ WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
 RISING_MAINTAINER="Snakeඞ"
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.build.product=bitra
+
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
